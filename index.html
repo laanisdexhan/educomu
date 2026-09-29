@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Realmente ves toda la realidad?</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="grid"></div>
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header class="topbar">
+        <div class="logo">
+            <span class="logo-symbol">◉</span>
+            MEDIA<span class="highlight">/</span>REAL
+        </div>
+
+        <div class="counter">
+            <span id="currentSlide">01</span>
+            <span>/</span>
+            <span>07</span>
+        </div>
+    </header>
+
+    <main class="carousel">
+        <section class="slide active">
+            <div class="slide-content hero">
+                <div class="tag">
+                    <span></span>
+                    ALFABETIZACIÓN MEDIÁTICA
+                </div>
+
+                <h1>
+                    ¿REALMENTE VES
+                    <span>TODA LA REALIDAD?</span>
+                </h1>
+
+                <p>
+                    Lo que aparece en tus redes sociales
+                    no es necesariamente todo lo que está pasando.
+                </p>
+
+                <button class="start-btn" id="startBtn">
+                    DESCUBRIR
+                    <span>→</span>
+                </button>
+            </div>
+
+            <div class="hero-visual">
+                <div class="phone">
+                    <div class="phone-top">
+                        <span>09:41</span>
+                        <span>● ● ●</span>
+                    </div>
+
+                    <div class="feed">
+                        <div class="post">
+                            <div class="post-image image-one"></div>
+                            <div class="post-text">
+                                <strong>Lo que está pasando...</strong>
+                                <small>2.4K interacciones</small>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="post-image image-two"></div>
+                            <div class="post-text">
+                                <strong>Esto es tendencia 🔥</strong>
+                                <small>8.7K interacciones</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-content">
+                <span class="slide-number">01 — EL FEED</span>
+
+                <h2>
+                    Tu feed no muestra
+                    <span>todo.</span>
+                </h2>
+
+                <p>
+                    Cada minuto se publican miles de contenidos.
+                    Sin embargo, cuando abres una red social,
+                    solo ves una pequeña selección.
+                </p>
+
+                <div class="info-card">
+                    <span class="card-icon">∞</span>
+                    <div>
+                        <strong>Contenido infinito</strong>
+                        <p>
+                            El algoritmo selecciona qué publicaciones
+                            aparecen primero.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visual-circle">
+                <div class="orbit">
+                    <span>VIDEO</span>
+                    <span>POST</span>
+                    <span>NEWS</span>
+                </div>
+                <div class="center-circle">FEED</div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-content">
+                <span class="slide-number">02 — EL ALGORITMO</span>
+
+                <h2>
+                    ¿Quién decide
+                    <span>qué ves?</span>
+                </h2>
+
+                <p>
+                    Los algoritmos analizan nuestras interacciones
+                    para seleccionar contenido que probablemente
+                    nos interese.
+                </p>
+
+                <div class="interaction-list">
+                    <div class="interaction">
+                        <span>♡</span>
+                        <div>
+                            <strong>Me gusta</strong>
+                            <small>Indica qué contenido prefieres.</small>
+                        </div>
+                    </div>
+
+                    <div class="interaction">
+                        <span>↗</span>
+                        <div>
+                            <strong>Compartir</strong>
+                            <small>Muestra qué contenido difundes.</small>
+                        </div>
+                    </div>
+
+                    <div class="interaction">
+                        <span>◷</span>
+                        <div>
+                            <strong>Tiempo de visualización</strong>
+                            <small>Indica qué contenidos consumes más.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="algorithm">
+                <div class="data">
+                    <span>LIKE</span>
+                    <span>VIEW</span>
+                    <span>SHARE</span>
+                    <span>SEARCH</span>
+                </div>
+
+                <div class="algorithm-core">IA</div>
+                <div class="arrow">↓</div>
+
+                <div class="result">
+                    TU<br>
+                    FEED
+                </div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-content">
+                <span class="slide-number">03 — LA BURBUJA</span>
+
+                <h2>
+                    Bienvenido a tu
+                    <span>burbuja.</span>
+                </h2>
+
+                <p>
+                    Cuando interactúas repetidamente con contenidos
+                    similares, las plataformas pueden mostrarte
+                    cada vez más publicaciones relacionadas.
+                </p>
+
+                <button class="interactive-btn" id="bubbleBtn">
+                    EXPLORAR MI BURBUJA
+                </button>
+            </div>
+
+            <div class="bubble-container" id="bubbleContainer">
+                <div class="bubble main-bubble">
+                    MI<br>
+                    FEED
+                </div>
+                <div class="bubble mini-bubble b1">🎮</div>
+                <div class="bubble mini-bubble b2">🎬</div>
+                <div class="bubble mini-bubble b3">📱</div>
+                <div class="bubble mini-bubble b4">🎵</div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-content">
+                <span class="slide-number">04 — DOS REALIDADES</span>
+
+                <h2>
+                    Dos personas.
+                    <span>Dos feeds.</span>
+                </h2>
+
+                <p>
+                    Dos personas pueden utilizar la misma plataforma
+                    y recibir contenidos completamente diferentes.
+                </p>
+            </div>
+
+            <div class="comparison">
+                <div class="user-feed">
+                    <div class="user-title">
+                        <div class="avatar">A</div>
+                        <div>
+                            <strong>PERSONA A</strong>
+                            <small>Le interesan los deportes.</small>
+                        </div>
+                    </div>
+
+                    <div class="feed-item">⚽ Fútbol</div>
+                    <div class="feed-item">🏆 Deportes</div>
+                    <div class="feed-item">🎥 Entrevistas</div>
+                </div>
+
+                <div class="vs">VS</div>
+
+                <div class="user-feed">
+                    <div class="user-title">
+                        <div class="avatar avatar-b">B</div>
+                        <div>
+                            <strong>PERSONA B</strong>
+                            <small>Le interesa la música.</small>
+                        </div>
+                    </div>
+
+                    <div class="feed-item">🎵 Música</div>
+                    <div class="feed-item">🎤 Conciertos</div>
+                    <div class="feed-item">🎧 Artistas</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-content">
+                <span class="slide-number">05 — ROMPE LA BURBUJA</span>
+
+                <h2>
+                    No confundas
+                    <span>tu feed</span>
+                    con la realidad.
+                </h2>
+
+                <p>
+                    Tu pantalla representa una parte de la información,
+                    no necesariamente el panorama completo.
+                </p>
+
+                <div class="tips">
+                    <div class="tip">
+                        <span>01</span>
+                        <strong>Busca otras fuentes.</strong>
+                    </div>
+
+                    <div class="tip">
+                        <span>02</span>
+                        <strong>Consulta diferentes perspectivas.</strong>
+                    </div>
+
+                    <div class="tip">
+                        <span>03</span>
+                        <strong>Cuestiona lo que consumes.</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-animation">
+                <div class="search-circle">🔎</div>
+                <span>EXPLORA MÁS ALLÁ</span>
+            </div>
+        </section>
+
+        <section class="slide final-slide">
+            <div class="final-content">
+                <div class="final-symbol">◉</div>
+
+                <div class="tag">
+                    <span></span>
+                    ALFABETIZACIÓN MEDIÁTICA
+                </div>
+
+                <h2>
+                    TU FEED ES UNA
+                    <span>VENTANA.</span>
+                </h2>
+
+                <p>Pero una ventana no muestra todo el mundo.</p>
+
+                <strong class="final-message">Mira. Cuestiona. Explora.</strong>
+
+                <button class="restart-btn" id="restartBtn">
+                    ↻ VOLVER A EMPEZAR
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <button id="prevBtn" aria-label="Anterior">←</button>
+
+        <div class="dots">
+            <button class="dot active" data-slide="0"></button>
+            <button class="dot" data-slide="1"></button>
+            <button class="dot" data-slide="2"></button>
+            <button class="dot" data-slide="3"></button>
+            <button class="dot" data-slide="4"></button>
+            <button class="dot" data-slide="5"></button>
+            <button class="dot" data-slide="6"></button>
+        </div>
+
+        <button id="nextBtn" aria-label="Siguiente">→</button>
+    </div>
+
+    <div class="progress">
+        <div id="progressBar"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
